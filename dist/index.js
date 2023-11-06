@@ -2801,7 +2801,6 @@ async function wait(milliseconds) {
         setTimeout(() => resolve('done!'), milliseconds);
     });
 }
-exports.wait = wait;
 
 
 /***/ }),
