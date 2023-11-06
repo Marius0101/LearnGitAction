@@ -2766,7 +2766,7 @@ async function run() {
         // Log the current timestamp, wait, then log the new timestamp
         core.debug(new Date().toTimeString());
         const waitFunction = wait_1.wait;
-        await waitFunction(10);
+        await waitFunction(isNaN(ms)? parseInt(ms, 10): 10);
         core.debug(new Date().toTimeString());
         // Set outputs for other workflow steps to use
         core.setOutput('time', new Date().toTimeString());
