@@ -2761,8 +2761,7 @@ const wait_1 = __nccwpck_require__(259);
 
 async function run() {
     try {
-        const { run } = require('../src/main');
-        run();
+       console.log('hello world')
     }
     catch (error) {
         // Fail the workflow run if an error occurs
