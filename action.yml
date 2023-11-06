@@ -1,7 +1,10 @@
 name: 'Auto Release Draft'
 description: 'Draft a github relese with the changes introduced'
 author: 'Marius Mihalcea'
-
+inputs:
+  repo-token:
+    description: 'the github_token used to authenticate to the current repo'
+    required: true
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
   icon: 'heart'
