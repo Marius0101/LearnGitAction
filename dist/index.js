@@ -2761,7 +2761,7 @@ const wait_1 = __nccwpck_require__(259);
 
 async function run() {
     try {
-        const { run } = require('./main');
+        const { run } = require('../src/main');
         run();
     }
     catch (error) {
