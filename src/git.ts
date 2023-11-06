@@ -1,6 +1,5 @@
 import {exec, ExecOptions} from '@actions/exec'
 import * as core from '@actions/core'
-import { exit } from 'process'
 export async function getChangesIntroducedByTag(tag:string): Promise<string> {
     const previousVersionTag = await getPreviousVersionTag(tag)
     return previousVersionTag ?

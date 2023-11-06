@@ -8,6 +8,7 @@ export async function run(): Promise<void> {
     const tag = event.getCreatedTag()
     if(tag && version.isSemVer(tag)){
       const changelog = await git.getChangesIntroducedByTag(tag)
+      //TOOD: use changelog
     }
 
     core.setOutput('release-url','https://example.com')
