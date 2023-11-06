@@ -13,7 +13,7 @@ branding:
 
 # Define your outputs here.
 outputs:
-  relese-url:
+  release-url:
     description: 'The URL of the GitHub release that was drafted'
 
 runs:

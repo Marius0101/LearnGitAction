@@ -16,7 +16,7 @@ export async function run(): Promise<void> {
 
     }
 
-    core.setOutput('release-url',releaseUrl)
+    core.setOutput('release-url', releaseUrl)
   } catch (error) {
     if (error instanceof Error) {
       // ✅ TypeScript knows err is Error
