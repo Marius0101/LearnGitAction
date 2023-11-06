@@ -1,13 +1,13 @@
 {
-  "name": "typescript-action",
-  "description": "GitHub Actions TypeScript template",
+  "name": "learn-git-action",
+  "description": "Draft a github relese with the changes introduced",
   "version": "0.0.0",
-  "author": "",
+  "author": "Marius Mihalcea",
   "private": true,
   "homepage": "https://github.com/actions/typescript-action",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/Marius0101/LearnGitAction.git"
   },
   "bugs": {
     "url": "https://github.com/actions/typescript-action/issues"
