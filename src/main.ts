@@ -5,7 +5,7 @@ export async function run(): Promise<void> {
   try {
     const tag = event.getCreatedTag()
     if(tag && version.isSemVer(tag)){
-      
+      // TODO: do later 
     }
 
     core.setOutput('release-url','https://example.com')
